@@ -1,0 +1,1 @@
+constructor(...arg) { super(...arg); }

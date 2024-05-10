@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    .red { color: red; }
+    .blue { color: blue; }
+  </style>
+</head>
+<body>
+  <ul id="fruits">
+    <li class="red">Apple</li>
+    <li class="red">Banana</li>
+    <li class="red">Orange</li>
+  </ul>
+  <script>
+    // class 값이 'red'인 요소 노드를 모두 탐색하여 HTMLCollection 객체에 담아 반환한다.
+    const $elems = document.getElementsByClassName('red');
+    
+    // 유사 배열 객체이면서 이터러블인 HTMLCollection을 배열로 변환하여 순회
+    [...$elems].forEach(elem => elem.className = 'blue');
+  </script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "co": "^4.6.0",
+    "lodash": "^4.17.21",
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {
+    "json-server": "^1.0.0-alpha.23"
+  },
+  "name": "depp-dive",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch ./44_REST_API/44_01.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

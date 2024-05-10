@@ -695,7 +695,7 @@ console.log(dec);
 // name=이웅모&job=programmer&teacher
 ```
 
-### 21.4.3 암묵적 전
+### 21.4.3 암묵적 전역
 
 ```javascript
 var x = 10; // 전역 변수
